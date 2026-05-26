@@ -2,6 +2,7 @@ import { describe, it, expect, beforeEach } from 'vitest';
 import { screen, fireEvent } from '@testing-library/dom';
 import '@testing-library/jest-dom';
 import { createFormAdd } from './form.add';
+import type { Category } from '../types/category';
 
 describe('ProductForm - createFormAdd', () => {
     beforeEach(() => {
@@ -33,7 +34,7 @@ describe('ProductForm - createFormAdd', () => {
                 description: 'desc',
                 price: 10,
                 hasPromo: false,
-                category: 'mobile',
+                category: 'mobile' as Category,
             },
         ];
 
