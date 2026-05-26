@@ -61,7 +61,7 @@ describe('ProductForm - createFormAdd', () => {
                 id: 2,
                 name: 'Nuevo producto',
                 description: 'Una descripción',
-                price: 120,
+                price: 100,
                 hasPromo: true,
                 category: 'computer',
             }),
