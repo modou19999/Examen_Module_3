@@ -1,6 +1,6 @@
 import { describe, test, expect, vi, beforeEach } from 'vitest';
 import { ApiRepo } from './api.repo';
-import { type Product } from '../models/product';
+import { type Product } from '../types/product';
 
 const repo = new ApiRepo();
 const mockProduct: Product = {

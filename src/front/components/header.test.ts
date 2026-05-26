@@ -12,10 +12,14 @@ vi.mock('./base.js', () => ({
 }));
 
 describe('Header component', () => {
-    beforeEach(() => {
+    afterEach(() => {
         document.body.innerHTML = '';
+    });
+
+    beforeEach(() => {
         createHeader();
     });
+
 
     it('debería renderizar el logo, título y botón', () => {
         const logo = screen.getByAltText('Logo de la empresa');
