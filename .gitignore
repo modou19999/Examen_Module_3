@@ -1,7 +1,6 @@
 *.xls*
 _entregas
 uploads
-*.test.*
 
 *-lock.json
 *.code-workspace
@@ -16,7 +15,7 @@ yarn-error.log*
 
 # Runtime data
 pids
-*.pid
+*.pid  
 *.seed
 *.pid.lock
 
